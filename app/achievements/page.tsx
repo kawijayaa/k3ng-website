@@ -1,9 +1,9 @@
 export default function Achievements() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-      <div className="flex flex-col text-center sm:w-1/2 sm:text-left sm:flex-row items-center justify-center gap-4 sm:gap-8">
+    <div className="min-h-screen flex flex-col items-center justify-center py-12 sm:px-6 px-8">
+      <div className="flex flex-col sm:w-1/2 text-left sm:flex-row items-center justify-center gap-4 sm:gap-8">
         <div className="flex flex-col gap-4 transition-all duration-200">
-          <h1 className="text-6xl text-cyan-500">achievements</h1>
+          <h1 className="text-4xl sm:text-6xl text-cyan-500">achievements</h1>
           <ul className="list-disc list-inside">
             <li>PwC Hackaday 2024 1st Runner Up (2024)</li>
             <li>CTF TCP1P International 2024 Winner (2024)</li>

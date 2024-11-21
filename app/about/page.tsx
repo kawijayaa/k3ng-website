@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-      <div className="flex flex-col text-center sm:w-1/2 sm:text-left sm:flex-row items-center justify-center gap-4 sm:gap-8">
+    <div className="min-h-screen flex flex-col items-center justify-center py-12 sm:px-6 px-8">
+      <div className="flex flex-col sm:w-1/2 text-left sm:flex-row items-center justify-center gap-4 sm:gap-8">
         <div className="flex flex-col gap-4 transition-all duration-200">
           <h1 className="text-6xl text-cyan-500">about</h1>
           <p>hello, i am an indonesian ctf player currently playing for CSUI, an academic team from Universitas Indonesia. participated in ctfs since 2022 and mainly solve web exploitation and forensic challenges. i also create challenges sometimes, an archive is available <a href="https://github.com/kawijayaa/ctf-challenges" className="hover:text-cyan-500 transition-all duration-200">here</a>.</p>
