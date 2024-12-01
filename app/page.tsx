@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-dvh flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="flex flex-col text-center sm:text-left sm:flex-row items-center justify-center gap-4 sm:gap-8 [text-shadow:_2px_2px_5px_var(--tw-shadow-color)] shadow-black">
         <div className="size-36 relative hover:drop-shadow-[0_0_30px_rgba(6,182,212,0.5)] transition-all duration-200">
           <Image
